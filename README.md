@@ -24,7 +24,7 @@
 	</p>
 </p>
 <p>How to check the algorithm (Test Cases) ?</p>
-<div style="padding: 50px;">
+<div>
 	![Test Cases](https://drive.google.com/file/d/1VqQMYiIDdn1nlG-n-35lhjPBaD83nmTL/view?usp=sharing)<br>
 	![Test Cases](https://drive.google.com/file/d/1uKudxeLjCwPQ7X0wPB1xIRXkGhNJ9NTj/view?usp=sharing)
 </div>
