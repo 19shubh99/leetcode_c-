@@ -9,7 +9,7 @@
 		<li>resolve time (time an issue was resolved)</li>
 		<li>abandoned time (If a customer left before the issue was assigned to an agent)</li>
 	</ul>
-	<p>Procedure:</p><br>
+	<p>Procedure:</p>
 	<p>
 		Now there are certain no of agents. Whenever any new comes, if there is atleast one who is free then the new issue will be dirrectly picked up by the agent. If not, then the new issue must have to wait till any one of the previous ongoing issue is completed. At any point of time if is found that customer left then the issue the will be termed as abandoned issue.
 	</p>
@@ -24,5 +24,6 @@
 	</p>
 	<p>How to check the algorithm (Test Cases) ?</p>
 	![Test Cases] (https://drive.google.com/file/d/1VqQMYiIDdn1nlG-n-35lhjPBaD83nmTL/view?usp=sharing)
+	<br>
 	![Test Cases] (https://drive.google.com/file/d/1uKudxeLjCwPQ7X0wPB1xIRXkGhNJ9NTj/view?usp=sharing)
 </p>
