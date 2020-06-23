@@ -10,7 +10,7 @@
 		<li>abandoned time (If a customer left before the issue was assigned to an agent)</li>
 	</ul>
 	<p>Procedure:</p>
-	<p>
+	<p style="padding: 100px;">
 		Now there are certain no of agents. Whenever any new comes, if there is atleast one who is free then the new issue will be dirrectly picked up by the agent. If not, then the new issue must have to wait till any one of the previous ongoing issue is completed. At any point of time if is found that customer left then the issue the will be termed as abandoned issue.
 	</p>
 	<p>
