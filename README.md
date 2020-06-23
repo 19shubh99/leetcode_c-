@@ -23,4 +23,6 @@
 		Now whenever any new issue come, our algorithm will check compatibility for that issue. If is found there is no way to placed the new issue into the onging queue the our algorithm will return minimum time it has to wait till any one of the agent pick up that issue.
 	</p>
 	<p>How to check the algorithm (Test Cases) ?</p><br>
+	![Test Cases] (https://drive.google.com/file/d/1VqQMYiIDdn1nlG-n-35lhjPBaD83nmTL/view?usp=sharing)
+	![Test Cases] (https://drive.google.com/file/d/1uKudxeLjCwPQ7X0wPB1xIRXkGhNJ9NTj/view?usp=sharing)
 </p>
