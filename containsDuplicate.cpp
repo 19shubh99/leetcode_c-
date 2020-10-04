@@ -1,23 +1,25 @@
-#include <iostream> 
+#include <bits/stdc++.h> 
 using namespace std; 
- void printRepeating(int arr[], int size) 
-{ 
-int i; 
+#define lli long long int
+
+// function which finds repeating elements
+void printRepeating(lli arr[], lli size) 
+{  
 cout << "The repeating elements are:" << endl; 
-for (i = 0; i < size; i++) 
-{ 
-    if (arr[abs(arr[i])] >= 0) 
-    arr[abs(arr[i])] = -arr[abs(arr[i])]; 
-    else
-    cout << abs(arr[i]) << " "; 
-} 
+ for (int i = 0; i < size; i++) 
+ { 
+     if (arr[abs(arr[i])] >= 0) 
+      arr[abs(arr[i])] = -arr[abs(arr[i])]; // Marking current element as negative
+     else
+      cout << abs(arr[i]) << " "; 
+ } 
 } 
   
-// Driver Code 
+// Main Function
 int main() 
 { 
-    int arr[] = {1, 2, 3, 1, 3, 6, 6}; 
-    int arr_size = sizeof(arr)/sizeof(arr[0]); 
-    printRepeating(arr, arr_size); 
+    int arr[] = {1, 2, 3, 1, 3, 6, 6}; // input array of integers
+    int arr_size = sizeof(arr)/sizeof(arr[0]); // Size of array
+    printRepeating(arr, arr_size); // calling the printRepeating function
     return 0; 
 } 
