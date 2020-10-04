@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
+#include<algorithms>
+#define lli long long int
 using namespace std;
-//create a node that consist of data value and a next pointer;
+//creates a node that consist of data value and a next pointer;
 struct Node
 {
 	int data;
@@ -14,7 +16,7 @@ Node* getNode(int val)
 	temp->next = NULL;
 	return temp;
 }
-//check whether the link list contain a cycle or not, if it has a cycle then the function will return
+//check whether the linked list contain a cycle or not, if it has a cycle then the function will return
 //corresponding data value;
 void check_cycle(Node* head)
 {
@@ -71,6 +73,6 @@ int main()
 	}
 	temp->next = r;
 	//check cycle in the link list;
-	check_cycle(head);
+	check_cycle(head); // calling the function which checks if there is a cycle.
 	return 0;
 }
